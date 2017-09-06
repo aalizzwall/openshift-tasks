@@ -142,8 +142,8 @@
                     <td><%= System.getenv("HOSTNAME") %></td>
                   </tr>
                   <tr role="row" class="even">
-                    <td>Pod IP</td>
-                    <td><%= System.getenv("MY_POD_IP") %></td>
+                    <td>Service IP</td>
+                    <td><%= System.getenv("TASKS_PORT_8080_TCP_ADDR") %></td>
                   </tr>
                   <tr role="row" class="odd">
                     <td>Used Memory</td>
